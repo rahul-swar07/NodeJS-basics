@@ -42,7 +42,8 @@ NVM stands for Node Version Manager.
 - nvm ls-remote ——> gives a list of all the available node.js version options available for your system
 
 Node Modules
-
+One file can be executed inside another file using the require method.
+Some properties of one file can be executed inside another file by usingg exports method and receiving that method into an object via require method.
 
 What is NPM ?
 
