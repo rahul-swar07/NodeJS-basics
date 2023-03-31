@@ -75,3 +75,4 @@ CallBacks
 - Asynchronous CallBack does not execute the commands in their original order that is one after the other, but rather executes the commands asynchronously, in any order.
 - Node.js is a Single-Threaded runtime, so it has the Asynchronous CallBack flexibility, wherein it can halt one process, complete some other process and then get back to the original process, although Synchronous CallBack facility is also provided in Node.js, wherein all other process are kept on halt while the original process is getting executed, and once its completed the next process is started in their order.
 
+To download all dependancies inside sub project folders, run "npm install", it will install all the dependancies mentioned inside package.json file dependancies field into node_modules folder.
