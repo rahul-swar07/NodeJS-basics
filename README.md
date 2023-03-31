@@ -49,8 +49,16 @@ Node Modules
 - 'fs' - 'writeLine' is an api module in Node.js that writes some data to a specified file whethe or not it exists. If it exists then it overwrites, else creates a new file with the specified name and writes the data to it. 
 
 What is NPM ?
-- NPM stands for Node Package Manager.
+- Previously NPM was supposed to be a Node Package Manager.
 - It helps in usage of thir party packages / modules in Node.js
+- It comes pre-installed along with Node.js installation.
+- Package Manager helps you to add third party packages from all different third party websites in your Node.js project directory, without the hessle of downloading them from the third party websites.
+- It also is helps in saving the memory, by not downloading the packages.
+- NPM has a repository / registry that is online and is managed by npm Inc.
+- All the third party websites put their third party packages onto this repository / registry.
+- When you create a Node.js project using NPM, it creates a "package.json" file in your project directory, wherein you can add that details of all the third party dependancies / packages along with their versions, that you require for your project.
+- NPM will then go to its repository / registry and fetch the exact specified thir party packages with their respective versions.
+- "npm install" command does the process of looking at all the dependancies mentioned in "package.json" and then getting those dependancies from the npm repository / registry. 
 
 CallBacks
 
