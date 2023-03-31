@@ -69,4 +69,9 @@ Creating a Node.js project with NPM
 - Other aliases (aliases other than "start" and "test") can also be created inside "scripts", but need to run them using the command "npm run alias_name".
 
 CallBacks
+- Callback is a call that is made by Node.js runtime to the api that is called.
+- There are two types of CallBacks - Synchronous and Asynchronous.
+- Synchronous CallBack executes the commands in their original order synchronously one after the other.
+- Asynchronous CallBack does not execute the commands in their original order that is one after the other, but rather executes the commands asynchronously, in any order.
+- Node.js is a Single-Threaded runtime, so it has the Asynchronous CallBack flexibility, wherein it can halt one process, complete some other process and then get back to the original process, although Synchronous CallBack facility is also provided in Node.js, wherein all other process are kept on halt while the original process is getting executed, and once its completed the next process is started in their order.
 
