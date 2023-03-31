@@ -60,5 +60,13 @@ What is NPM ?
 - NPM will then go to its repository / registry and fetch the exact specified thir party packages with their respective versions.
 - "npm install" command does the process of looking at all the dependancies mentioned in "package.json" and then getting those dependancies from the npm repository / registry. 
 
+Creating a Node.js project with NPM
+- Create a project folder, and use the command "npm init".
+- Fill the different input fields that it prompts as per your project requirement.
+- Finally it creates a Node.js project with npm, that just has a single package.json file, which basically contains the information that you just filled, and this serves as the metadata for your project.
+- Inorder to execute / run your project with the main file, you can create an alias "start" in "scripts" of "package.json", and provide it with the command of starting the main file, ex. "start" : "node index.js", here "index.js" is he main file of this Node.js project.
+- Now the project can be run with a single command "npm start".
+- Other aliases (aliases other than "start" and "test") can also be created inside "scripts", but need to run them using the command "npm run alias_name".
+
 CallBacks
 

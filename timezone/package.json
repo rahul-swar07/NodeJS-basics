@@ -1,0 +1,13 @@
+{
+  "name": "timezone",
+  "version": "1.0.0",
+  "description": "Utility to convert Time Zones.",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "myscript" : "ls"
+  },
+  "author": "Rahul Swar",
+  "license": "ISC"
+}
