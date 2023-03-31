@@ -13,7 +13,7 @@ Prerequisites:
 2. Familiarity with Command Line
 
 What is Node js?
-Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine.
+- Node.js is a JavaScript runtime built on Chrome’s V8 JavaScript engine.
 - Difference between Language and Runtime.
 - Origins of JavaScript - Initially it was just HTML and CSS, when JavaScript came it bought dynamic functionality to the websites.
 - Design and Run the JavaScript language - Creating a new language (in 2 easy steps) - 1) Design the language, 2) Build something that runs it.
@@ -30,7 +30,7 @@ Hence, Node.js is a runtime for V8 engine in your local OS, that also provides a
 - Running on Node.js - 1) Access to system resources, 2) Memory, file system, I/O, network and more.
 
 What is NVM?
-NVM stands for Node Version Manager.
+- NVM stands for Node Version Manager.
 - Manages various versions of node.js on your machine.
 - Saves the problem of installing, uninstalling and reinstalling different versions of node.js as and when required.
 - Prerequisites - git, curl of nvm from GitHub repo.
@@ -42,8 +42,10 @@ NVM stands for Node Version Manager.
 - nvm ls-remote ——> gives a list of all the available node.js version options available for your system
 
 Node Modules
-One file can be executed inside another file using the require method.
-Some properties of one file can be executed inside another file by usingg exports method and receiving that method into an object via require method.
+- One file can be executed inside another file using the require method.
+- Some properties of one file can be executed inside another file by usingg exports method and receiving that method into an object via require method.
+- Node Modules can also come in the form of apis in Node.js
+- 'readline' in 'require' is an api module in Node.js that helps to take user input in stdin and output the same through stdout.
 
 What is NPM ?
 
