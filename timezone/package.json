@@ -4,10 +4,14 @@
   "description": "Utility to convert Time Zones.",
   "main": "index.js",
   "scripts": {
-    "start" : "node index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "myscript" : "ls"
+    "myscript": "ls"
   },
   "author": "Rahul Swar",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4"
+  }
 }
