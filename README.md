@@ -45,10 +45,12 @@ Node Modules
 - One file can be executed inside another file using the require method.
 - Some properties of one file can be executed inside another file by usingg exports method and receiving that method into an object via require method.
 - Node Modules can also come in the form of apis in Node.js
-- 'readline' in 'require' is an api module in Node.js that helps to take user input in stdin and output the same through stdout.
+- 'readline' is an api module in Node.js that helps to take user input in stdin and output the same through stdout.
+- 'fs' - 'writeLine' is an api module in Node.js that writes some data to a specified file whethe or not it exists. If it exists then it overwrites, else creates a new file with the specified name and writes the data to it. 
 
 What is NPM ?
-
+- NPM stands for Node Package Manager.
+- It helps in usage of thir party packages / modules in Node.js
 
 CallBacks
 
